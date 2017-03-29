@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A3182BA5-A6D9-6969-A9E1-24A08EAACA32" name="carModel">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 17:52:43 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ModelID" id="524CBE50-AA40-EDF7-D492-F52DDE8D0A90">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 17:53:00 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Model" id="2687525F-696C-0A69-139B-53A1352A9920">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 17:53:11 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MakerID" id="939DC522-B63B-AB2B-6E11-8305750D2544">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 15:41:33 UTC</createdTime>
+<generatorID>F88FA737-8930-BE43-299D-789ABEA3D9CE</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<referedAttribute>89845F14-407B-EA0C-08DA-12902EC9B40E</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D0A0952F-A928-8644-930C-A1B6845441D3" name="carModel PK">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 17:53:04 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>524CBE50-AA40-EDF7-D492-F52DDE8D0A90</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

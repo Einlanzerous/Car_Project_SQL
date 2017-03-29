@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D53C4631-9344-B018-5E7F-EEEF8913D58D" containerWithKeyObject="74FC7501-ABFA-FFF4-7909-13EC6F469B3B" localFKIndex="810B9F97-815E-B25D-BF1A-B29CAB46CF4C" name="sale_License_Tax_Insur_FK">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 15:51:52 UTC</createdTime>
+<generatorID>821884CF-E15B-C7F2-10BB-AF00E3D3B584</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>19A9220A-36CC-AD6C-708F-982C78989CE4</referredTableID>
+<keyObject>7C987EE2-CB67-D7E3-DC6C-2A1B96D72E36</keyObject>
+<referredKeyID>7C987EE2-CB67-D7E3-DC6C-2A1B96D72E36</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

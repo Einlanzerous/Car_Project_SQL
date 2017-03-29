@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="260CFF1C-A73C-BF63-EB21-40C2A8B33E57" name="carColor">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 17:50:04 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="0EA9D644-41EF-CB87-DABE-2777319A3355" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ColorID" id="966AD6A0-44C5-655F-C4D1-7EB1A0B3BF7E">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 17:50:11 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="0EA9D644-41EF-CB87-DABE-2777319A3355" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Color" id="E38F6A39-AF15-A2E6-9F45-FA237EB326F5">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 17:50:29 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="0EA9D644-41EF-CB87-DABE-2777319A3355" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E929ACDF-FEEB-04F3-A3E6-571163265DC7" name="carColor PK">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 17:50:43 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="0EA9D644-41EF-CB87-DABE-2777319A3355" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>966AD6A0-44C5-655F-C4D1-7EB1A0B3BF7E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

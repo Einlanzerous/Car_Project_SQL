@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BEA411BC-5190-657F-4CBE-1DB11E34C59E" name="carModel">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 15:51:52 UTC</createdTime>
+<generatorID>A3182BA5-A6D9-6969-A9E1-24A08EAACA32</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ModelID" id="14AC5C85-8EAA-2A3E-9450-FC03F25FF5AB">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 15:51:52 UTC</createdTime>
+<generatorID>524CBE50-AA40-EDF7-D492-F52DDE8D0A90</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Model" id="747F5E06-724C-37EE-E089-253D49084AB8">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 15:51:52 UTC</createdTime>
+<generatorID>2687525F-696C-0A69-139B-53A1352A9920</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="carMaker_MakerID" id="1C62DFC3-A2B5-0AC2-0C64-B825F14FBFD1">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 15:51:52 UTC</createdTime>
+<generatorID>939DC522-B63B-AB2B-6E11-8305750D2544</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B92606E-6B0B-38F7-AA61-4835A4AA28C6" referredColumn="C2FDBB81-4774-7A99-7DAE-9188C106F0FA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16FF3EEA-4CBD-CEEA-8F91-504A49020D08" name="carModel_PK">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 15:51:52 UTC</createdTime>
+<generatorID>D0A0952F-A928-8644-930C-A1B6845441D3</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14AC5C85-8EAA-2A3E-9450-FC03F25FF5AB"/>
+<colUsage columnID="1C62DFC3-A2B5-0AC2-0C64-B825F14FBFD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="713C3EF1-8357-6DDF-733C-A3C16F0BC88B" name="carModel__IDX">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 15:55:07 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14AC5C85-8EAA-2A3E-9450-FC03F25FF5AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34E2F5B9-72F5-F511-CDBA-44EF6EAB26E9" name="carModel__IDXv1">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 15:57:48 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C62DFC3-A2B5-0AC2-0C64-B825F14FBFD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AAB2272-2071-11B1-59DC-E93D7D3D9792" name="carModel_carMaker_FK">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 15:51:52 UTC</createdTime>
+<generatorID>F88FA737-8930-BE43-299D-789ABEA3D9CE</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C62DFC3-A2B5-0AC2-0C64-B825F14FBFD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

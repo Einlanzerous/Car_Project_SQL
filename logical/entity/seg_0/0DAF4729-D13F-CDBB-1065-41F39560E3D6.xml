@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0DAF4729-D13F-CDBB-1065-41F39560E3D6" name="satisfaction">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 17:45:12 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Car" id="454ED92B-5482-F527-984A-2224325B62A6">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 17:45:53 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dealership" id="DDC416D3-F068-72FA-DD8E-9285507FD975">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 17:46:02 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Salesperson" id="3771D510-87BA-64AB-B260-C464F1041184">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 17:46:08 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SurveyID" id="0E3A3357-C870-0992-82BA-CDBB5D2B0F1E">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 15:50:21 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CustomerID" id="EDE877D1-9748-2A3D-DD3F-1A12C1FEEB31">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 15:51:08 UTC</createdTime>
+<generatorID>B721E876-B1B5-9879-B79B-D2E4ACEB5D60</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<referedAttribute>49AA6790-3653-7C85-9C5B-28C5BA7AD705</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="45DEAFAD-1A4F-00DE-7061-B59DF1ED4EDC" name="satisfaction PK">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 15:50:26 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0E3A3357-C870-0992-82BA-CDBB5D2B0F1E</attributeRef>
+<attributeRef>EDE877D1-9748-2A3D-DD3F-1A12C1FEEB31</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

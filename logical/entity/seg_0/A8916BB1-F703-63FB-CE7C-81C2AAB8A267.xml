@@ -1,0 +1,178 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A8916BB1-F703-63FB-CE7C-81C2AAB8A267" name="customer">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 17:46:40 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CustomerID" id="49AA6790-3653-7C85-9C5B-28C5BA7AD705">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 17:47:12 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Loan" id="861E59FC-D977-AA03-8FBA-458ECE9B5E57">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 17:47:22 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FName" id="DC95928E-191A-B3F1-2F9F-6CFADCB454D9">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 17:47:30 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LName" id="E4BA6554-37B8-AAE9-7651-51610C95C636">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 17:47:42 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SpendLevel" id="694208A1-1812-BD77-4973-958212F4268E">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 17:47:57 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Years" id="E656D9CD-8A3C-8FC3-634D-898FBE0C94B7">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 17:48:06 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zip" id="40104297-E488-38EC-A1FD-40B2B6FB2555">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 17:48:11 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AddressID" id="FD2C53C2-A4A7-28E3-2C75-B55B69CDA167">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-11-01 13:55:18 UTC</createdTime>
+<generatorID>C0F2750F-3627-9D51-4236-3F0538A46E23</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<referedAttribute>DCF10272-9213-DB91-6300-80838A676322</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SalesPersonID" id="A8D1E7AF-A5E4-034D-B3BA-02135F4818AC">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-11-01 14:03:02 UTC</createdTime>
+<generatorID>B9EC711A-3513-53A0-48E0-5A47AE6C8B6A</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<referedAttribute>0228DD1B-8201-31F3-FA64-8D5BBAA489CD</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone" id="21AF447E-5396-BBF2-424E-392FDFC783E6">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-11-01 19:49:18 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="FBCF4FAE-7561-B886-9BEB-1ABD8F3DF7AE">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-11-01 19:54:18 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7FB1A2F1-2B81-0616-80ED-415FAD319ACA" name="customer PK">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 17:47:17 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>49AA6790-3653-7C85-9C5B-28C5BA7AD705</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

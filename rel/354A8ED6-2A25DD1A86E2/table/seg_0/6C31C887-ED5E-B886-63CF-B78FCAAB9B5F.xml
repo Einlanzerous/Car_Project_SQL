@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C31C887-ED5E-B886-63CF-B78FCAAB9B5F" name="carMaker">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-11-01 20:08:08 UTC</createdTime>
+<generatorID>9DBD72CC-9240-6128-CA71-D68EBB27572F</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MakerID" id="DA7F6765-D574-9373-8FA1-C49070F6D080">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-11-01 20:08:08 UTC</createdTime>
+<generatorID>89845F14-407B-EA0C-08DA-12902EC9B40E</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Maker" id="3ED34B9C-53B9-B1DD-2DEC-CDA4DDE0BEAD">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-11-01 20:08:08 UTC</createdTime>
+<generatorID>3FFD3762-24B8-D24E-49E0-DC126D3C1F3F</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="carModel_ModelID" id="FCE81E9B-B4DE-6602-D723-2B1766A08354">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-11-01 20:08:08 UTC</createdTime>
+<generatorID>62683262-1868-EF86-DD80-7B81DC40C816</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4ED8C894-1B26-40BF-CEAB-11C7B79032BF" referredColumn="64597A97-873A-211E-9A6B-0D61D0330726"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42344AB2-4B9D-8EAA-51A3-0C2D00B7A038" name="carMaker_PK">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-11-01 20:08:08 UTC</createdTime>
+<generatorID>6AB64B80-02D1-FB72-A02F-BB455ACBF2D3</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA7F6765-D574-9373-8FA1-C49070F6D080"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC41D62E-C682-F613-E0A8-7ADBCF550116" name="carMaker__IDX">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-11-01 20:08:08 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>94170B32-771C-A746-9910-A477935C7951</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="FCE81E9B-B4DE-6602-D723-2B1766A08354"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18F47400-9E8C-A306-0D6E-DF20C79EFF1B" name="carMaker_carModel_FK">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-11-01 20:08:08 UTC</createdTime>
+<generatorID>94170B32-771C-A746-9910-A477935C7951</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCE81E9B-B4DE-6602-D723-2B1766A08354"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

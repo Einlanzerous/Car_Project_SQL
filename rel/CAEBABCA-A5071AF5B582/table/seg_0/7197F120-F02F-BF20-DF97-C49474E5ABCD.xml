@@ -1,0 +1,267 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7197F120-F02F-BF20-DF97-C49474E5ABCD" name="sale">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 20:15:12 UTC</createdTime>
+<generatorID>DBFD979C-9DF8-80FE-82FD-C1CF1A131048</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CurrentMileage" id="DE9A072B-B346-20EF-BBF9-A96A05F7B8C8">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 20:15:12 UTC</createdTime>
+<generatorID>755C0E68-8F56-F0DA-EB47-53810185CD2D</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customization" id="B6E16FA8-C7A0-74DE-029C-9653663E6941">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 20:15:12 UTC</createdTime>
+<generatorID>CB919F78-E08D-49E6-5185-5708D8A7354D</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Financing" id="4D609434-DA8C-BDB4-E3C1-3108BA3F0F93">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 20:15:12 UTC</createdTime>
+<generatorID>C9AB756C-10F9-C62D-596B-8E7297929B31</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Warranty" id="CDB3FCA3-CF4A-D47C-0D1A-06EE3852C462">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 20:15:12 UTC</createdTime>
+<generatorID>DC998E3C-5B48-073C-F9F8-090586C24068</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TaxesFees" id="853001C0-0793-9CD8-37D3-88E9870A7143">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 20:15:12 UTC</createdTime>
+<generatorID>76A53369-6D48-4A28-926B-E38066F8D11F</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<domain>DOM2025070</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TotalPrice" id="0D236AF8-DCCD-F287-1B3A-881C092E2257">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 20:15:12 UTC</createdTime>
+<generatorID>4DABAAF2-A898-5360-06E8-CE968FFBC37E</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<domain>DOM2025070</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CostofVehicle" id="CDDFE42D-3D72-AD39-1988-38C8FD228BCE">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 20:15:12 UTC</createdTime>
+<generatorID>1E834D1E-C5C9-19EC-436C-F99AEAB34CBA</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<domain>DOM2025070</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SaleID" id="58147411-939F-5AEE-ACF7-BDFE74595141">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 20:15:12 UTC</createdTime>
+<generatorID>1D3F7BC1-3DF4-2BB8-0F40-4BAE99CB9A82</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="License_Tax_Insur_AddiFeeID" id="E97DE1F4-BAB1-D992-A6C4-91493C6EA61E">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 20:15:12 UTC</createdTime>
+<generatorID>DF32C1AD-55EE-9F8F-AC57-E69C9BAE97E4</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99CEAC60-1735-5670-DE69-C4C424DCACC0" referredColumn="417E15F9-330B-2239-7AC8-AF2D78F38086"/>
+</associations>
+</Column>
+<Column name="vehicle_VehicleID" id="26B1AC71-35CB-143A-ACE2-90DED97BCDEB">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 20:15:12 UTC</createdTime>
+<generatorID>073907A4-9A24-13DD-000D-408C35344189</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B68C7B2C-C5E8-D825-AFBC-B7635196F9FF" referredColumn="46BA9638-FFF6-2AC5-F919-3B2043E053DB"/>
+</associations>
+</Column>
+<Column name="salesperson_SalesPersonID" id="5857DEF5-A9A0-C89E-B968-75DF20BBA1ED">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 20:15:12 UTC</createdTime>
+<generatorID>9B3EEB5F-9C71-AF5B-E2E9-CAB9BF934B77</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="339F5AA4-53C8-D120-2B5C-308C591C389D" referredColumn="152E5809-B74A-1191-D74B-C5080A7D0FF7"/>
+</associations>
+</Column>
+<Column name="customer_CustomerID" id="A5763775-C28B-D137-BACD-BB999C6CC82C">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 20:15:12 UTC</createdTime>
+<generatorID>77FC4DA9-2733-48CE-D34E-82C183FB3CEA</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A53EF3A-CC04-1073-8334-8C1D61342FDD" referredColumn="A133E4BA-85F4-0E1B-70B3-C1F300AD989B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F8E360D8-9370-2FA7-D295-5DD999B636F4" name="sale_PK">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 20:15:12 UTC</createdTime>
+<generatorID>97C19DB9-207A-0DFB-59E2-B7418606223A</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58147411-939F-5AEE-ACF7-BDFE74595141"/>
+<colUsage columnID="A5763775-C28B-D137-BACD-BB999C6CC82C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B9E6FD2-E2C8-B61C-43D1-7956156D4B26" name="sale__IDX">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 20:15:12 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>821884CF-E15B-C7F2-10BB-AF00E3D3B584</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E97DE1F4-BAB1-D992-A6C4-91493C6EA61E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF75CF6C-4B44-0417-682F-29693F44B115" name="sale__IDXv1">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 20:16:49 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58147411-939F-5AEE-ACF7-BDFE74595141"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6FD8BEB-9316-B4FB-C496-D40E38CEFD79" name="sale__IDXv2">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 20:16:49 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26B1AC71-35CB-143A-ACE2-90DED97BCDEB" sortOrder="DESC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4773C79A-518C-8A95-2922-688771D6984C" name="sale__IDXv3">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 20:16:49 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5763775-C28B-D137-BACD-BB999C6CC82C"/>
+<colUsage columnID="5857DEF5-A9A0-C89E-B968-75DF20BBA1ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC2B2804-3058-6D6E-4B71-0BE13E29DFD6" name="sale_customer_FK">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 20:15:12 UTC</createdTime>
+<generatorID>4A822613-CD55-D70F-578E-D787D822819B</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5763775-C28B-D137-BACD-BB999C6CC82C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B67978F6-4306-F549-6809-37A5C06D35ED" name="sale_vehicle_FK">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 20:15:12 UTC</createdTime>
+<generatorID>269558A4-EDED-F9E4-428D-E5810D69DC8F</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26B1AC71-35CB-143A-ACE2-90DED97BCDEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39EED8FD-DFD5-023A-D457-1565D0AC3980" name="sale_salesperson_FK">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 20:15:12 UTC</createdTime>
+<generatorID>CA3ED60D-2DD3-34FB-E57C-94EAC92440AA</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5857DEF5-A9A0-C89E-B968-75DF20BBA1ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC1B6430-2A3B-C35D-25C7-74A717FFDEA7" name="sale_License_Tax_Insur_FK">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 20:15:12 UTC</createdTime>
+<generatorID>821884CF-E15B-C7F2-10BB-AF00E3D3B584</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E97DE1F4-BAB1-D992-A6C4-91493C6EA61E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

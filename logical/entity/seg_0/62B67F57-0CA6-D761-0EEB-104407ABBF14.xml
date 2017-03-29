@@ -1,0 +1,287 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="62B67F57-0CA6-D761-0EEB-104407ABBF14" name="vehicle">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 16:14:11 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Delivered" id="27AAA028-77B2-4195-B475-5B18E0F05E18">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 16:20:55 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>DOM2025100</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Doors" id="60CF46E8-BBC4-489E-A1E4-FBA96DCE6147">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 16:19:58 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VehicleID" id="DC9D0350-E876-E6E2-D10E-36044FA0F53E">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 16:21:42 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MileageCurrent" id="D3894746-CC8D-BBDD-563F-BEB5C0AAB1B0">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 16:22:08 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MileageOrig" id="73B0F794-7A74-4E93-AC42-3B1BF1C70797">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 16:22:46 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="New" id="4780AB46-B162-C5FC-033A-E2E1D92724DE">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 16:23:16 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM2022950</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Price" id="AE56708E-B923-ED06-092C-62B1BACAA02F">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 16:24:02 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<domain>DOM2025070</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ListPrice" id="F4318771-21F7-3A19-6D0C-24FCAFD80B2A">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 16:24:15 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<domain>DOM2025070</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="20E783BB-32DA-29E4-4153-75C541D4D074">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 16:24:40 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Weight" id="1D980A58-274E-2344-D1AD-3D1E12B9C49B">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 16:25:37 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Year" id="CC74BD17-A83B-F040-C4CD-725FBF082DC2">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 16:26:01 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ColorID" id="B814859E-5B31-E054-2DD1-539423F507A4">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-11-01 13:38:24 UTC</createdTime>
+<generatorID>89A5A775-72BF-B8FB-01D1-F86DCD378D9B</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<referedAttribute>966AD6A0-44C5-655F-C4D1-7EB1A0B3BF7E</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FeatureID" id="EE961747-00EE-6629-A81B-5C7CED20DBF0">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-11-01 13:38:56 UTC</createdTime>
+<generatorID>8B8FCFEC-37A2-CAC4-B367-F7AE10CC3971</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<referedAttribute>9EDDD290-5704-3FF5-AE9A-4253DC1AD7FD</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ModelID" id="B5DD9178-F757-0357-BC69-0311032730EF">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-11-01 13:39:03 UTC</createdTime>
+<generatorID>92B03857-9097-0AAC-67C3-531A8E2E4C20</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<referedAttribute>524CBE50-AA40-EDF7-D492-F52DDE8D0A90</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SalesPersonID" id="59DC0DC5-107B-B237-D78E-A8921AAAA3DD">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-11-01 14:45:56 UTC</createdTime>
+<generatorID>1FA30E44-CFE5-50BB-0AE2-6787858B812B</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<referedAttribute>0228DD1B-8201-31F3-FA64-8D5BBAA489CD</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TransmissionID" id="5D56FFE3-E319-C96C-1B37-8C51B38D4E71">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-11-01 15:13:40 UTC</createdTime>
+<generatorID>06BA7C3E-E8B0-6406-53BD-DFFF6D806406</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<referedAttribute>9334F55A-3120-3486-5D08-081523DB74B7</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VehicleBodyID" id="D192A981-95FB-2DF4-187E-D6BFF68E0D0B">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-11-01 15:14:42 UTC</createdTime>
+<generatorID>6E054F29-3D9C-9BC8-0A72-2C6A09ADFFF1</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<referedAttribute>A1C6E296-4C93-2179-415B-4A1414886E2B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DrivetrainID" id="E13889C3-71C5-6EFA-4F66-26F34F3E5F78">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-11-01 15:15:42 UTC</createdTime>
+<generatorID>3AC72383-A05C-A66E-D7D5-3CD8CEFB8258</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<referedAttribute>96899D06-AC7B-02B1-7AC1-82302AAC2A1B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MotorID" id="2ED281E0-EF24-043D-BC42-264E2A83C565">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-11-01 15:17:06 UTC</createdTime>
+<generatorID>FFA5FF30-6C40-034B-96C4-8EBF456230F8</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<referedAttribute>16658D7D-CF80-3DC7-C15C-5BE621C3CC44</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4032E36C-1C9D-929D-625D-82380D68BEA2" name="vehicle PK">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 16:23:57 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="AC9BDDCC-C165-D157-D014-767E871190FF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DC9D0350-E876-E6E2-D10E-36044FA0F53E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

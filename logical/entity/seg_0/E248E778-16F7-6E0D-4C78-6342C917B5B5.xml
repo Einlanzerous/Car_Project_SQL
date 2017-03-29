@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E248E778-16F7-6E0D-4C78-6342C917B5B5" name="address">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 17:55:28 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="1927D026-96A3-1570-532A-BE51792E6E0B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="StreetName" id="8B675F1D-8E10-672F-CB7F-F7D9FCA79736">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 17:55:35 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="1927D026-96A3-1570-532A-BE51792E6E0B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="StreetNumber" id="9E602E76-DD98-4075-3497-627D0D4D9DB6">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 17:55:47 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="1927D026-96A3-1570-532A-BE51792E6E0B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="City" id="EB9E3DE2-6D40-6105-0E50-14AF69ACF07E">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 17:55:57 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="1927D026-96A3-1570-532A-BE51792E6E0B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="State" id="C698C45B-80A2-A1F2-5CB5-9C5E267A2837">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 17:56:20 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="1927D026-96A3-1570-532A-BE51792E6E0B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Country" id="9DFCDE55-5E12-A2B9-97B6-1E0159DDB243">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 17:56:32 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="1927D026-96A3-1570-532A-BE51792E6E0B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AddressID" id="DCF10272-9213-DB91-6300-80838A676322">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 17:57:00 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="1927D026-96A3-1570-532A-BE51792E6E0B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AE872935-1BA9-3939-FEEC-5416E7DBBB0C" name="address PK">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-10-28 17:57:21 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="1927D026-96A3-1570-532A-BE51792E6E0B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DCF10272-9213-DB91-6300-80838A676322</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

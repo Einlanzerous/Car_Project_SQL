@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="986F8764-C451-D187-A245-6EF3D847015D" name="DriveTrain">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-11-01 15:14:59 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="0EA9D644-41EF-CB87-DABE-2777319A3355" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DrivetrainID" id="96899D06-AC7B-02B1-7AC1-82302AAC2A1B">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-11-01 15:15:18 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="0EA9D644-41EF-CB87-DABE-2777319A3355" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Drivetrain" id="D9BF93A5-54E1-32FE-9BA5-ACF413CF6156">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-11-01 15:15:28 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<engineerTo>
+<item key="0EA9D644-41EF-CB87-DABE-2777319A3355" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0F252036-1FA5-A4A1-D2E4-B8226EFD8DE6" name="DriveTrain PK">
+<createdBy>Ashley</createdBy>
+<createdTime>2016-11-01 15:15:26 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0EA9D644-41EF-CB87-DABE-2777319A3355" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>96899D06-AC7B-02B1-7AC1-82302AAC2A1B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

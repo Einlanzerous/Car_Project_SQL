@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="11D35E97-E23C-6F7A-10D2-119E19564D0A" name="carModel">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 20:15:12 UTC</createdTime>
+<generatorID>A3182BA5-A6D9-6969-A9E1-24A08EAACA32</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ModelID" id="0BC4955F-E342-E147-C833-183A5B5B5283">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 20:15:12 UTC</createdTime>
+<generatorID>524CBE50-AA40-EDF7-D492-F52DDE8D0A90</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Model" id="D8B7121D-12B2-4EA3-4C7B-D21E3A8D7E39">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 20:15:12 UTC</createdTime>
+<generatorID>2687525F-696C-0A69-139B-53A1352A9920</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>DOM3000005</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="carMaker_MakerID" id="14AE2DA2-63BB-E883-2917-CF09D803CC11">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 20:15:12 UTC</createdTime>
+<generatorID>939DC522-B63B-AB2B-6E11-8305750D2544</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E5A4504-D98E-F604-DE0B-F2F516BD7A0E" referredColumn="7A9D8FD3-60B9-FB23-28EF-A19BCE5F5F55"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2F2C9081-A25C-7A05-16B8-83FB6EB0324C" name="carModel_PK">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 20:15:12 UTC</createdTime>
+<generatorID>D0A0952F-A928-8644-930C-A1B6845441D3</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BC4955F-E342-E147-C833-183A5B5B5283"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="52BECDC3-334F-F5D3-027A-D399E6E815F0" name="carModel__IDX">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 20:15:42 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BC4955F-E342-E147-C833-183A5B5B5283"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3F9A9BF-F2A6-1F4F-F557-E421E40A1F83" name="carModel__IDXv1">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 20:15:42 UTC</createdTime>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14AE2DA2-63BB-E883-2917-CF09D803CC11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63DDDA34-ADA7-4E9A-8E47-6BA155947CF2" name="carModel_carMaker_FK">
+<createdBy>Einlanzerous</createdBy>
+<createdTime>2016-11-06 20:15:12 UTC</createdTime>
+<generatorID>F88FA737-8930-BE43-299D-789ABEA3D9CE</generatorID>
+<ownerDesignName>Project_Cars</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14AE2DA2-63BB-E883-2917-CF09D803CC11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
